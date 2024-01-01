@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+
+.container-input{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: black;
+   
+
+}
+.container-input #heading{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 3px;
+}
+
+.container-input .our-name{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(81, 9, 95);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-color: white;
+    
+}
+
+.container-input .product-name{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(81, 9, 95);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+.container-input .product-info{
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(81, 9, 95);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+.container-input .mera-input{
+    margin: 5px 0px;
+    border:2px solid rgba(1,23,56,0.8) ;
+    border-radius: 7px;
+    background-color:white;
+}
+
+.feedback-container{
+    width: 100%;
+    height:3000px;
+    color: white;
+}
+
+ .feedback-container::before{
+content: "";
+position: absolute;
+top: 0px;
+left: 0px;
+ background: url('image/chat-background1.jpeg'); 
+z-index: -1;
+opacity: 1;
+width: 100%;
+ height:3000px; 
+
+}  
+
+.container-input #sub-button{
+    position: relative;
+    top: -39px;
+    left: 1415px;
+    width: 100px;
+    height: 33px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 2px solid white;
+    color: yellow;
+    background-color: blue;
+}
+
+.all-info{
+    border: 1px solid white;
+    width: 80%;
+    height: 200px;
+    margin: 15px auto;
+    padding: 11px 35px;
+    border-radius: 8px;
+   box-shadow: 0 0 5px 0;
+   background: inherit;
+   backdrop-filter: blur(10px);
+}
+
+.feedback{
+    margin: 11px 5px;
+}
+
+
+.feedback-person-email{
+    font-size: 17px;
+    font-weight: 500px ;
+    font-family: fantasy;
+}
+.feedback-person-name{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.feedback-product-name{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.feedback-information{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

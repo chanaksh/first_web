@@ -1,0 +1,93 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+   
+
+background-color: rgba(239, 233, 233, 0.918);
+    
+
+}
+
+
+.bg-search{
+
+    width: 100%;
+    height: 200px;
+    background: url("bg-search.png") ;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+form #mera-search{
+   
+    height: 40px;
+    width: 600px;
+   position: absolute;
+   top: 180px;
+   left: 427px;
+   
+    background-color: white;
+    font-size: 21px;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    padding: 2px 3px;
+    
+    
+} 
+
+ form #form-sub{
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    right: 415px;
+    top: 180px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+} 
+
+.replay{
+    
+    position: absolute;
+    top: 118px;
+    left: 469px;
+    font-size: 25px;
+    color: green;
+}
+
+
+.all-question{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    
+}
+
+li{
+    
+    margin: 0px 26px 31px 142px;
+}
+
+p{
+    font-size: 16px;
+    position: absolute;
+    top: 112px;
+    left: 469px;
+}

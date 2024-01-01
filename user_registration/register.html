@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form " action="user.php" method="post">
+            <h2 class="heading">Registration</h2>
+
+                <div class="inputbox">
+                    <input class="user-box" id="myuser" type="text" placeholder="Username" name="username"
+                        required="required">
+                </div>
+
+                <div class="inputbox">
+                    <input class="user-box" id="myemail" type="email" placeholder="Email" name="email"
+                        required="required">
+                </div>
+
+                <div class="inputbox">
+
+                    <input class="user-box" id="mypass" type="password" placeholder="Password" name="password"
+                        required="required">
+                </div>
+                <div class="link">
+                    <label for="check">I agree to the terms and condition</label>
+                    <input type="checkbox" id="check" name="terms_condition" value="1" required="required">
+                    <a id="sing" href="../user_login/login.html">login</a>
+                </div>
+                <div class="btn">
+                    <input id="submit" type="submit" value="Submit">
+                    <input id="reset" type="reset" value="Clear">
+                </div>
+                <div class="new_user">Already have an account?</div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

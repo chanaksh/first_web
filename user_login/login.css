@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(10, 25, 33, 0.91);
+    }
+    .container{
+    position:relative;
+    
+    width: 450px;
+    height: 500px;
+    background-color: #1c1c1c;
+    border-radius: 25px;
+    overflow: hidden;
+    }
+    
+    .container::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 450px;
+    height: 550px;
+    background:linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    }
+    .container::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 450px;
+    height: 550px;
+    background:linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -2s;
+    }
+    
+    
+    @keyframes animate{
+    0%{
+    transform: rotate(0deg);
+    }
+    
+    100%{
+    transform: rotate(360deg);
+    }
+    }
+    
+    .container form{
+    position: absolute;
+    inset:4px;
+    background: #222;
+    padding: 50px 40px;
+    border-radius: 25px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column ;
+    
+    }
+    
+    .heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    }
+    
+    .user-box{
+    border: none;
+    border-bottom: 3px solid white;
+    background: transparent;
+    margin: 35px;
+    outline: none;
+    height: 23px;
+    color: white;
+    width: 300px;
+    
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.5s;
+    }
+    
+    .user-box:focus{
+    
+    width: 90%;
+    border-color: #050b10;
+    
+    }
+    
+    .link{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    #forgot{
+    
+    margin: -19px 36px;
+    font-size: 17px;
+    color: aqua
+    }
+    
+    input{
+    width: 100px;
+    height: 35px;
+    box-sizing: border-box;
+    color: darkorange;
+    background-color: black;
+    border: 2px solid gray;
+    font-size: 20px;
+    padding: 2px 2px;
+    font-weight: 500;
+    position: relative;
+    border-radius: 4px ;
+    
+    }
+    
+    #submit{
+    top: 20px;
+    left: 64px;
+    }
+    #reset{
+    top: 20px;
+    left: 95px;
+    }
+    
+    #sing{
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid rgb(53, 5, 39);
+    width: 102px;
+    height: 37px;
+    text-align: center;
+    /* margin: 5px ; */
+    padding: 5px;
+    background-color: rgb(6, 32, 32);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    
+    top: 129px;
+    right: 41px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    
+    }
+    #sing:hover{
+    background-color:rgb(42, 123, 123) ;
+    }
+    
+    .new_user{
+    color: rgb(23, 151, 151);
+    position: relative;
+    top: 67px;
+    left: 51px;
+    font-size: 17px;
+    width: 163px;
+    
+    }
+     
